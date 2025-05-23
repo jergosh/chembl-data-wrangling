@@ -1,0 +1,14 @@
+name: chembl-data-wrangling
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - pandas
+  - scipy
+  - rdkit
+  - pip
+  - pip:
+      - chembl_webresource_client
